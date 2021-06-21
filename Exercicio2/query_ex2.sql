@@ -1,9 +1,9 @@
 select
     a.name as produto, b.name as categoria
 from
-    products a
+    products as a
 inner join
-    categories b
+    categories as b
 on a.id_categories = b.id
 where
     a.amount > 100 and (
