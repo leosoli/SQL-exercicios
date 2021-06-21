@@ -6,9 +6,11 @@ from
             categories b
         on a.id_categories = b.id
 where
-    amount > 100 and (
-                    id_categories = 1 or
-                    id_categories = 2 or
-                    id_categories = 3 or
-                    id_categories = 6 or
-                    id_categories = 9)
+    a.amount > 100 and (
+                    a.id_categories = 1 or
+                    a.id_categories = 2 or
+                    a.id_categories = 3 or
+                    a.id_categories = 6 or
+                    a.id_categories = 9)
+order by
+    b.id
