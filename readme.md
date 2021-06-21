@@ -2,7 +2,7 @@
 
 Para realização dos exercícios referentes à competência em SQL, foi utilizado o SGBD (Sistema Gerenciador de Banco de Dados) Oracle<sup>®</sup>, através de sua plataforma online [Oracle Live SQL](https://livesql.oracle.com/).
 
-@import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false}
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
